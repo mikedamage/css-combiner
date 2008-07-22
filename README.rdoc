@@ -8,18 +8,6 @@ This script simply concatenates CSS or Javascript files, strips out comments and
 
 == Usage/Examples
 
-Linking to CSS Files:
+I don't really have time to figure out the peculiarities of Github's Textile and RDoc rendering, so I'm just going to give a couple very basic examples. Here's how to use the script in an HTTP request:
 
-<pre>
-<code>
-	< link rel="stylesheet" href="css-combiner.rb?format=css&files=/absolute/path/to/file.css&files=/another/file.css" type="text/css" / >
-</code>
-</pre>
-
-Embedding Javascript Files:
-
-<pre>
-<code>
-	< script type="text/javascript" src="css-combiner.rb?format=js&files=/path/to/jquery.js&files=/path/to/jquery.plugin.js" > < /script >
-</code>
-</pre>
+	css-combiner.rb?format=css&files=/absolute/path/to/file1.css&files=/absolute/path/to/file2.css
