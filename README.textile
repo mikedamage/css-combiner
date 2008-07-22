@@ -12,7 +12,7 @@ Linking to CSS Files:
 
 <pre>
 <code>
-	&lt;link rel="stylesheet" href="css-combiner.rb?format=css&files=/absolute/path/to/file.css&files=/another/file.css" type="text/css" /&gt;
+	< link rel="stylesheet" href="css-combiner.rb?format=css&files=/absolute/path/to/file.css&files=/another/file.css" type="text/css" / >
 </code>
 </pre>
 
@@ -20,6 +20,6 @@ Embedding Javascript Files:
 
 <pre>
 <code>
-	&lt;script type="text/javascript" src="css-combiner.rb?format=js&files=/path/to/jquery.js&files=/path/to/jquery.plugin.js"&gt;&lt;/script&gt;
+	< script type="text/javascript" src="css-combiner.rb?format=js&files=/path/to/jquery.js&files=/path/to/jquery.plugin.js" > < /script >
 </code>
 </pre>
