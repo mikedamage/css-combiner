@@ -6,6 +6,8 @@ Copyright (C) 2008, Mike Green <mike.is.green@gmail.com>
 
 This script simply concatenates CSS or Javascript files, strips out comments and whitespace, and sends them back to the page that requested them. It's meant to be embedded in an (X)HTML document just like a Javascript of CSS file.
 
+*NOTE:* For debugging purposes, I've required Rubygems and the CGI-Exception gem in the script. These are totally optional and should be commented out for production use because they'll slow you down quite a bit. It's just a convenient way to check CGI errors without delving into Apache log files.
+
 == Usage/Examples
 
 I don't really have time to figure out the peculiarities of Github's Textile and RDoc rendering, so I'm just going to give a couple very basic examples. Here's how to use the script in an HTTP request:
