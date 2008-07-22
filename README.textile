@@ -1,0 +1,25 @@
+= Ruby CSS Combiner
+
+Copyright (C) 2008, Mike Green <mike.is.green@gmail.com>
+
+== Summary
+
+This script simply concatenates CSS or Javascript files, strips out comments and whitespace, and sends them back to the page that requested them. It's meant to be embedded in an (X)HTML document just like a Javascript of CSS file.
+
+== Usage/Examples
+
+Linking to CSS Files:
+
+<pre>
+<code>
+	&lt;link rel="stylesheet" href="css-combiner.rb?format=css&files=/absolute/path/to/file.css&files=/another/file.css" type="text/css" /&gt;
+</code>
+</pre>
+
+Embedding Javascript Files:
+
+<pre>
+<code>
+	&lt;script type="text/javascript" src="css-combiner.rb?format=js&files=/path/to/jquery.js&files=/path/to/jquery.plugin.js"&gt;&lt;/script&gt;
+</code>
+</pre>
