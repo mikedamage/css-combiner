@@ -8,18 +8,14 @@ This script simply concatenates CSS or Javascript files, strips out comments and
 
 h2. Usage/Examples
 
-*Linking to CSS Files:*
+Linking to CSS Files:
 
 <pre>
-<code>
 	<link rel="stylesheet" href="css-combiner.rb?format=css&files=/absolute/path/to/file.css&files=/another/file.css" type="text/css" />
-</code>
 </pre>
 
-*Embedding Javascript Files:*
+Embedding Javascript Files:
 
 <pre>
-<code>
 	<script type="text/javascript" src="css-combiner.rb?format=js&files=/path/to/jquery.js&files=/path/to/jquery.plugin.js"></script>
-</code>
 </pre>
